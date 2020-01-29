@@ -1,0 +1,28 @@
+{
+  "name": "node_chatroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node chat.js",
+    "dev": "nodemon chat.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HlibDerbenov/node_chatroom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HlibDerbenov/node_chatroom/issues"
+  },
+  "homepage": "https://github.com/HlibDerbenov/node_chatroom#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
